@@ -1,0 +1,176 @@
+*{
+    padding:0;
+    margin:0;
+}
+#heading{
+    background-color: rgba(0, 0, 0, 0.974);
+    height: 100px;
+    width: 100%;
+}
+#header{
+    color: azure;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    letter-spacing: 7px;
+    font-style: oblique;
+}
+#headerhalf{
+    color: #d94498;
+    position:relative;
+    top:-24px;
+    right: -65px;
+}
+#header:hover{
+color: #d94498;
+}
+#headerhalf:hover{
+color:#ffffff
+} 
+#body{
+    background-color:black;
+    height: 400px;
+    width: 100%;
+    background-image: url(images/bg.png);
+    background-repeat:no-repeat;
+    background-size: 20%;
+    background-position-x: 94%;
+    background-position-y: center;
+    }
+    #option{
+        position:relative;
+        top:-40px;
+        left:30px;
+    }
+    #name{
+      
+        color: #ffffff;
+        position: relative;
+        top: 30%;
+        font-size: 25px;
+        font-style: oblique;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 30px;
+    }
+    .name{
+        color:#d94498;
+    }
+    #footor{
+    background-color: rgba(0, 0, 0, 0.974);
+    height: 140px;
+    width: 100%;
+}
+a{
+    position: relative;
+    left: 60%
+}
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #121317;
+}
+a {
+  position: relative;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #a0a0a0;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+a:before,
+a:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  background-color: #d94498;
+  transition: 0.5s;
+}
+a:after {
+  left: 0;
+  bottom: -10px;
+}
+a:before {
+  right: 0;
+  top: -10px;
+}
+a:hover {
+  color: #ffffff;
+}
+a:hover:after,
+a:hover:before {
+  width: 100%;
+}
+#contact{
+    position: relative;
+    top:10px;
+    left:-800px
+}
+.link{
+    padding:8px;
+}
+.skills{
+  height:600px;
+  width:800px;
+  background-color: #0b0e0b;
+  position: relative;
+  bottom:-10px;
+  left:20%;
+  margin:10px;
+  border-top: #a0a0a0;
+  border-radius: 20px;
+}
+h1{
+  color:azure;
+  position: relative;
+  left:40%;
+  bottom: -20px;
+  color:#d94498;
+}
+ul li{
+  color:rgb(111, 156, 156);
+  position: relative;
+  bottom: -30px;
+  left:20%;
+  margin:50px
+}
+.academics{
+  position: relative;
+  left:28%;
+  bottom: -190px;
+  color: azure;
+  width:500px;
+  height:20px;
+}
+table{
+  background-color: rgb(94, 97, 169);
+  border-radius: 20px;
+}
+caption{
+  position:relative;
+  top:-30px;
+  color:#d94498;
+}
+.myprojects{
+  height:600px;
+  width:800px;
+  position:relative;
+  bottom:-25px;
+  left:255px;
+  border-radius: 30px;
+  background-color: rgb(36, 51, 73) 
+}
+ul li{
+  color: white;
+  position:relative;
+  bottom: -10px;
+  left:40px;
+}
+
+
